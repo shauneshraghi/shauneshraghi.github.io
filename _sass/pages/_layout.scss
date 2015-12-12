@@ -28,7 +28,7 @@
     height: 100px;
     float: none;
     @include media-query($medium-screen) {
-      display: none;
+      /*display: none*/;
     }
   }
   .author_name {
