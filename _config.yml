@@ -1,20 +1,68 @@
-# Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+###################################
+# Site wide configuration
+####################################
+#
+title: Leonids
+email: 
+description: A simple and awesome blog theme powered by jekyll.
+# the base hostname & protocol for your site
+# If your project is placed in https://github.com/yourname/yourname.github.io at master branch
+# Then, the 'url' is: http://yourname.github.io
+# If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
+# Then, the 'url' is: http://yourname.github.io/projectname
+url: 
 
-# Site settings
-title: Shaun's Blog
-email: shaun.eshraghi@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I am a Bioengineering Ph.D. from Georgia Tech, here I ponder ponderously.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: shauneshraghi
-github_username:  shauneshraghi
+#
+###################################
+# Jekyll configuration
+####################################
+#
+markdown:    kramdown
+highlighter:  pygments
+excerpt_separator: <!--more-->
 
-# Build settings
-markdown: kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Shaun Eshraghi
+  avatar: avatar.jpg
+  job: "Research Engineer"
+  bio: "I am a Bioengineering Ph.D. from Georgia Tech, here I ponder ponderously."
+  email: "shaun.eshraghi@gmail.com"
+  disqus-shortname:
+  twitter: "shauneshraghi"
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #"shauneshraghi"
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: "shauneshraghi"
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
