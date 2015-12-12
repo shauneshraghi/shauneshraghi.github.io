@@ -41,7 +41,7 @@ owner:
   bio: "I am a Bioengineering Ph.D. from Georgia Tech, here I ponder ponderously."
   email: "shaun.eshraghi@gmail.com"
   disqus-shortname:
-  twitter: "shauneshraghi"
+  twitter: #"shauneshraghi"
   facebook: #username
   google:
     plus: #username
