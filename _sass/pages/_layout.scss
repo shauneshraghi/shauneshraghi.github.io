@@ -13,6 +13,7 @@
   }
   @include media-query($medium-screen) {
     background-image: url("../img/sidebar-bg.jpg");
+    filter: brightness(50%);
     background-position: center bottom;
     background-size: cover;
     height: 100vh;
@@ -74,6 +75,14 @@
         }
       }
     }
+  }
+}
+.image-credits {
+  margin-top: 9px;
+  color: #fff;
+  font-size: 0.6em;
+  a {
+    color: #fff;
   }
 }
 .nav-list {
